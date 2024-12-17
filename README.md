@@ -9,7 +9,6 @@ Features
 Tech Stack
 Installation
 Scripts
-Folder Structure
 Contributing
 License
 
@@ -77,23 +76,6 @@ npm run dev Starts the development server.
 npm run build Builds the project for production.
 npm run preview Previews the production build locally.
 npm run lint Runs ESLint to find and fix linting issues.
-
-# Folder Structure
-
-the-wild-oasis/
-├── public/ # Static files (e.g., images, icons)
-├── src/ # Source code
-│ ├── assets/ # Assets like fonts or images
-│ ├── components/ # Reusable React components
-│ ├── hooks/ # Custom hooks
-│ ├── pages/ # React Router pages
-│ ├── services/ # API calls or Supabase integrations
-│ ├── styles/ # Global and shared styles
-│ └── utils/ # Utility functions
-├── .eslintrc.json # ESLint configuration
-├── package.json # Project metadata and scripts
-├── vite.config.js # Vite configuration
-└── README.md # Project documentation
 
 # Contributing
 
